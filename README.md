@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+🛒 Lazy Loaded Product List App
+This is a performance-optimized ReactJS application built as part of my refresher learning series. It showcases modern frontend best practices like lazy loading, code splitting, infinite scroll, API integration, and Material UI design.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🧠 Features Implemented
+✨ Lazy Loading Components
+→ Components are loaded on-demand using React.lazy() and Suspense to reduce initial bundle size.
 
-## Available Scripts
+🧩 Code Splitting
+→ Route-based and component-level code splitting to enhance loading speed and performance.
 
-In the project directory, you can run:
+🎨 Material UI Integration
+→ Responsive UI built with MUI for a clean and modern look.
 
-### `npm start`
+🌐 Axios for API Calls
+→ Fetches dynamic product and category data with proper state handling and error fallback.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🧭 React Router Setup
+→ Smooth navigation between Home and About pages using react-router-dom.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔍 Search + Category Filter
+→ Allows users to filter products by category and search by name with debounced input.
 
-### `npm test`
+📜 Infinite Scroll
+→ Products are auto-loaded as the user scrolls down, enhancing UX without page reloads or "Load More" buttons.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Deployed on Netlify with GitHub CI/CD
+→ Integrated GitHub repo with Netlify for continuous deployment on every commit.
 
-### `npm run build`
+🔗 Live Demo
+🌐 Click to View Live App: https://gleeful-narwhal-d6535c.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tech Stack
+ReactJS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Material UI (MUI)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Axios
 
-### `npm run eject`
+React Router DOM
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React.lazy + Suspense
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Netlify (Deployment)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📂 Project Structure (Simplified)
+bash
+Copy
+Edit
+/src
+  ├── components/
+  ├── pages/
+  │   └── About.js
+  ├── ProductList.js
+  ├── App.js
+  └── index.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📸 Screenshots
+Include screenshots of:
 
-## Learn More
+Home page with products
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Search and filter functionality
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+About page
 
-### Code Splitting
+Infinite scrolling in action (if possible)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to fork, explore, or suggest improvements!
+🔄 Refreshed concepts with hands-on implementation.
