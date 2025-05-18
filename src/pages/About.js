@@ -7,7 +7,7 @@ const About = () => {
     <Box p={2}>
       <Typography variant="h4">About Page</Typography>
       <Typography variant="body1" mt={2}>
-        This is a demo app showcasing:
+        This is a demo app showcasing (Created by Prem S. Bharti):
         <ul>
           <li>Lazy loading components</li>
           <li>Material UI integration</li>
