@@ -10,6 +10,8 @@ const About = () => {
         This is a demo app showcasing (Created by Prem S. Bharti):
         <ul>
           <li>Lazy loading components</li>
+          <li>Code splitting</li>
+          <li>Infinite scroll</li>
           <li>Material UI integration</li>
           <li>Axios for API calls</li>
           <li>React Router for navigation</li>
